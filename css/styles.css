@@ -1,0 +1,126 @@
+html{
+	font-size: 62.5%;	
+}
+
+body {
+
+	margin: auto;
+	background-image: url(../img/map-800.jpg);
+	background-size: cover;
+	background-position: top center;
+	background-repeat: no-repeat;
+	width: 97%;
+	background-attachment: fixed;
+	padding: 50px 20px;	
+	line-height: 1.5
+}
+header h1{
+	font-size: 7.596rem;
+	text-align: center;
+	padding-bottom: 10rem;
+	position: relative;
+	top: 100px;
+	left: 0;
+	right: 0;
+	font-family: 'Playfair Display', serif;
+}
+
+.Eragon h1,
+.Plot h1,
+.Major h1,
+.Adaptions h1,
+.Film h1,
+.Video-Game h1{
+	font-size: 5.063rem;
+	padding-bottom: 2rem;
+	padding-top: 2rem;
+	text-align: center;
+	font-family: 'Playfair Display', serif;
+}
+
+.Eragon p,
+.Plot p,
+.Major p,
+.Adaptions p,
+.Film p,
+.Video-Game p{
+	font-size: 2.25rem;
+	padding-bottom: 2rem;
+	font-family: 'Fauna One', serif;
+	background-color: #59c5e9;
+	opacity: 100%;
+	justify-content: space-around;
+	line-height: 1.5;
+}
+
+.Video-Game p:nth-child(2) {
+	padding-bottom: 5rem;
+}
+
+.Major h2{
+	font-family: 'Playfair Display', serif;
+	font-size: 3.375rem;
+	padding-top: 1.5rem;
+	padding-bottom: 1.5rem;
+	text-align: center;
+}
+footer{
+	text-align: center;
+}
+footer h3,
+footer h4{
+	font-family: 'Cinzel', serif;	
+	font-size: 2rem;
+}
+
+.origins,
+.list{
+	font-size: 1.8rem;
+	display:block;
+	justify-content: space-around;
+}
+
+footer a{
+	font-family: 'Cinzel', serif;
+	text-decoration: none;
+	color: #000;
+}
+
+.row-eragon,
+.row-saphira,
+.row-murtagh,
+.row-arya,
+.row-galbatorix,
+.row-nasuada,
+.row-roran,
+.row-orik{
+	column-count: 2;
+	column-gap: 10%;
+	padding-bottom:2rem;
+}
+
+.row-movie,
+.row-game{
+	column-count: 2;
+	column-gap: 5%;
+}
+
+.movie-img img,
+.game-img img{
+	width: 97%;
+	padding-bottom:10rem;
+/*	padding-left: 5rem;*/
+}
+
+.Eragon-img img,
+.saphira-img img,
+.murtagh-img img,
+.arya-img img,
+.Galbatorix-img img,
+.nasuada-img img,
+.roran-img img,
+.orik-img img,
+.books-img img{
+	width: 50%;
+
+}
